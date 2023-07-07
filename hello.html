@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <title>Humanster-Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index1.css">
+</head>
+
+<body>
+  <div class="mySlides1">
+        <div class="boopathy">
+            <div class="sidenav">
+              <div class="two">
+                <i class="uil uil-adjust-half"></i> <span>Humanstre</span>
+                </div>
+                <div class="g">
+                   <h2>Welcome Back!</h2> 
+                   <p>Good Moring!Welcome to Member login</p>
+                </div>
+                <div class="navbar-collapse collapse"  >
+                  <ul class="nav navbar-nav navbar-right">
+                       <a href="#" id="logout" style="display: none;"></a>
+                  </ul>
+              </div>
+              <form action="#" onsubmit="hello()">
+         
+                <label>Email Address</label>
+                <input id="email" placeholder="Email@Address.com" required />
+                <label>Pass word</label>
+                <input
+                  type="Password"
+                  placeholder="input password"
+                  id="password"
+                  required
+                />      
+            
+                    <div class="asus">
+                      <div class="fo"><input type="checkbox"><span>Remember me</span></div>  
+                        <a href="#">ForgetPassword?</a>
+                    </div>
+                    <div class="gt">
+                      <div class="a9">
+                        <input type="submit" value="Login" onchange="hello()" />
+                      </div>
+                    
+                           </div>
+                          </form>
+                           <div class="kl">
+               
+                            <hr class="hr-text" data-content="Or">
+                          </div>
+                       <div class="poo">
+                        <button onclick="signInWithGoogle()" class="btn"><i class="fa-brands fa-google"></i><a href="#">Login With google</button>
+                        </a>
+                        
+                       
+                </div>  
+                </div>
+
+            
+            <div class="wingo">
+                <div class="wingo1">
+                <h4>Easilly-Track your invoice,detailed and</h4>
+          
+                <a> Well-oraganized</a>
+        
+                <p>Send invoice Humanster With your Pay</p>
+                </div>
+                  <div class="cool">
+                    <img src="image/correct.png">
+  </div>
+  <div class="a1">
+    <i class="uil uil-circle"></i>
+    <i class="uil uil-minus"></i>
+    <i class="uil uil-circle"></i>
+  </div>
+   </div>
+  
+    </div>
+     
+     </div> 
+
+
+
+</div>
+</body>
+        <script>
+    
+        </script>
+
+
+<script>
+  
+	
+  const firebaseConfig = {
+  apiKey: "AIzaSyCDTpkJMzTpJT8xzt9opF6Hwt9kk5cvPmE",
+  authDomain: "import-5f69d.firebaseapp.com",
+  projectId: "import-5f69d",
+  storageBucket: "import-5f69d.appspot.com",
+  messagingSenderId: "685270522754",
+  appId: "1:685270522754:web:ea09e84256fd1e6350cd9b"
+};
+  const app = initializeApp(firebaseConfig);
+
+  function signInWithGoogle() {
+    var provider = new firebase.auth.GoogleAuthProvider();
+    firebase.initializeApp(firebaseConfig);
+    firebase.auth().signInWithPopup(provider)
+      .then(function(result) {
+      var user = result?.user;
+      console.log('dst',user?.email)
+
+      var emailInput = document.getElementById("email");
+      var passwordInput = document.getElementById("password");
+      
+    
+      emailInput.value = user.email;
+      passwordInput.value = "password";
+      localStorage.setItem('username',user?.displayName)
+      
+      firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        window.location.href = "https://admirable-granita-579b44.netlify.app" 
+      }
+    });
+      })
+    
+      .catch(function(error) {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.log(errorCode, errorMessage);
+      });
+      
+    
+    
+  }
+
+</script>
+
+
+
+
+</html>

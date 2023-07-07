@@ -1,0 +1,530 @@
+@media screen and (max-width: 884px) {
+  .boopathy {
+    padding: 1px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .fri {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.ny3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+  .sidenav {
+    background-color: white;
+    padding: 50px;
+  }
+  .ny3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36vh;
+}
+.ny2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 66%;
+}
+  .cm {
+    position: absolute;
+    left: 30pc;
+    top: 9pc;
+    width: 25%;
+    display: grid;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    justify-content: center;
+    align-items: center;
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cool img {
+    width: 100%;
+  }
+  .ny3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37vh;
+}
+.ny2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 52vh;
+}
+  .boopathy {
+    display: grid;
+    justify-content: center;
+    padding-top: 2px;
+  }
+  .sidenav {
+    background-color: white;
+    padding: 4px;
+    padding-block: 25px;
+    display: grid;
+    padding-inline: 10px;
+  }
+
+  .g h2 {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .cm img {
+    width: 50px;
+    position: relative;
+    left: 29%;
+  }
+  .cm {
+    position: absolute;
+    left: 9pc;
+    top: 10pc;
+    width: 48%;
+    display: grid;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    justify-content: center;
+    align-items: center;
+  }
+  .ki {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  .kip {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+  .wingo {
+    background-color: rgb(245, 247, 249);
+    padding: 34px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .pa {
+    padding: 4px;
+    padding-top: 12px;
+    display: grid;
+    justify-content: space-evenly;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    /* margin: 5%; */
+    padding: 20px;
+    border: 1px solid;
+    width: 200px;
+    position: relative;
+    left: 67%;
+    margin-top: 50%;
+    /* display: flex; */
+    /* align-items: center; */
+    position: initial;
+    text-align: center;
+    margin-inline: 60px;
+  }
+  .lm1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* padding: 0px; */
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    margin-left: -28px;
+    gap: 20px;
+    margin-right: -18px;
+  }
+  .lm2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* padding: 0px; */
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    margin-left: -28px;
+    gap: 20px;
+    margin-right: -18px;
+  }
+  .lm3 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* padding: 0px; */
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    margin-left: -28px;
+    gap: 20px;
+    margin-right: -18px;
+  }
+  .today1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 14px;
+    gap: 8px;
+    text-align: center;
+  }
+  .pn1 a {
+    border: 1px solid;
+    padding: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .com {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  hr {
+    display: none;
+  }
+  .io {
+    margin-top: 14px;
+    display: flex;
+    gap: 24px;
+    color: rgb(10, 48, 75);
+  }
+  .jp {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 10px;
+    align-items: center;
+    display: none;
+  }
+  .po {
+    border: none;
+    padding: -1px;
+    border-radius: 8px;
+    margin-left: 2%;
+    font-size: 10px;
+  }
+  table {
+    display: none;
+  }
+  .pn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lh {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 1px;
+  }
+  .pn {
+    font-size: 16px;
+  }
+  .sa1 a {
+    text-decoration: none;
+    padding: 4px;
+  }
+  .meta {
+    margin-right: 100px;
+  }
+  .rh {
+    margin-left: 60px;
+  }
+  .get {
+    position: relative;
+    left: 25px;
+  }
+  .uil-document-info:before {
+    content: "\e956";
+    color: red;
+  }
+  .uil-bell:before {
+    content: "\ebdb";
+    color: black;
+  }
+  .paid {
+    position: relative;
+    left: 17px;
+    color: darkseagreen;
+    background-color: gainsboro;
+    border-radius: 6px;
+  }
+  .yu {
+    position: relative;
+    right: 30px;
+  }
+  .yu i {
+    color: rebeccapurple;
+  }
+
+  .kj {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 8px;
+    color: #333;
+  }
+  .null a {
+    text-decoration: none;
+    color: black;
+  }
+  .hg {
+    display: flex;
+    gap: 15px;
+  }
+  .dis {
+    display: grid;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+  }
+  .u {
+    display: flow-root;
+    /* justify-content: space-between; */
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .monday {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    /* padding: 44px;
+    padding-top: 23px;
+    padding-bottom: 28px; */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 0%;
+    padding: 20px;
+    border: 1px solid;
+    width: 200px;
+    position: relative;
+    left: 30%;
+    margin-top: 44%;
+}
+}
+
+@media screen and (max-width: 704px) {
+  .fri {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .monday {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    /* padding: 44px;
+    padding-top: 23px;
+    padding-bottom: 28px; */
+  }
+  .dream {
+    display: grid;
+  }
+  .pointer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin-bottom: 14px;
+  }
+  .biles {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+  }
+  .task ul {
+    display: grid;
+    background-color: rgb(245, 247, 249);
+    justify-content: center;
+    padding: 2px;
+    border-radius: 8px;
+
+    gap: 2px;
+    align-items: center;
+    font-size: 14px;
+  }
+  .note1 {
+    border: 1px solid;
+    padding: 4px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-left: 29px;
+  }
+  .seri {
+    display: grid;
+    justify-content: right;
+    padding: 15px;
+    align-items: center;
+    margin-right: 50px;
+  }
+  .eye {
+    border: none;
+  }
+  .marked {
+    padding: 10px;
+    background-color: white;
+  }
+  .note2 {
+    margin-left: 17px;
+    font-weight: 500;
+    color: rgb(39, 67, 83);
+  }
+  .fri {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fri {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 44px;
+    padding-top: 23px;
+    padding-bottom: 28px;
+    background-color: #f1f1f1;
+  }
+  .task ul {
+    width: 100%;
+  }
+  .fri {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .task ul {
+    background-color: rgb(245, 247, 249);
+    gap: 14px;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .fri {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 704px) {
+  .single {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+  .null {
+    /* padding: 8px; */
+    padding: 1%;
+  }
+  .ny3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+  }
+  .ny2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+  }
+  .today {
+    border: none;
+    border-radius: 1px;
+    padding: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  .liu {
+    padding: 1px;
+    text-align: center;
+  }
+  .boss1 {
+    border: none;
+  }
+  .lcu {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .true {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+  }
+  .swet {
+    padding: 2px;
+  }
+  .hp {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  .total {
+    display: grid;
+    padding-bottom: 12px;
+    justify-content: center;
+    gap: 16px;
+  }
+  .c2 img {
+    width: 12%;
+  }
+  .qa {
+    text-align: center;
+  }
+  .jo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 884px) {
+  .select {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .chartBox {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+  }
+}

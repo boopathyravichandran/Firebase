@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanster-Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index1.css" />
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"
+  ></script>
+  </head>
+ 
+  <body>
+    <div class="mySlides1">
+      <div class="container" data-theme="dark">
+        <div class="fri">
+          <div class="monday1">
+            <div class="b2c">
+        <div class="base">
+          <i class="uil uil-adjust-half"></i> <span>Humanster</span>
+        </div>
+        <div class="ja">
+          <input  id="filter-input" type="search" placeholder="Search" class="ka" a href="#" class="fa-solid fa-magnifying-glass"></a></a>
+        </div>
+        <a href="#"><p class="lp">General</a></p>
+        <div class="vc3">
+          <div class="lu">
+          <a href="#"span i class="uil uil-tachometer-fast"> Overview</i></a>
+         
+        </div>
+        <div>
+          <a href="#" i class="uil uil-clock"> Attendance</i></a>
+        
+        </div>
+        <div>
+          <a href="sit1.html" i class="uil uil-invoice"> invoice</i></a>
+        </div>
+        <div>
+          <a href="#" i class="uil uil-angry"> emplyees</i></a>
+        </div>
+        <div>
+          <a href="#" i class="uil uil-calendar-alt"> Calenter</i></a>
+        </div>
+        <div>
+          <a href="#" i class="uil uil-file-info-alt"> document</i></a>
+        </div>
+        <div>
+          <a href="#" i class="uil uil-bag-alt"></i> Structur organization</a>
+        </div>
+        <hr>
+        <p>Support</p>
+        <div>
+        <a href="#" i class="uil uil-setting"> Setting</i> </a> 
+        
+        </div>
+        <div>
+          <a href="#" i class="uil uil-comment-question"></i>  Help Center </a> 
+        </div>
+        </div>
+        <div class="ny3">
+          
+          <a href="#">Apprearance</a>
+            <div class="controller-row">
+              <label class="switch">
+                <input id="toggler" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+         
+         
+        </div>
+        </div>
+          </div>
+          <div class="hight">
+            <div class="pa">
+              <div class="f">
+             
+                <spani class="uil uil-tachometer-fast-alt">overview</i></span> 
+              </div>
+              <div class="val">
+                
+                <i class="fa-solid fa-grip"></i>
+                <i class="uil uil-bell"></i>
+                <div class="pb">
+                  <p id="result"></p>
+                </div>
+                
+
+                <i id="openModal" class="fa-solid fa-chevron-down"></i>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        
+        <a href="hello.html">logout</a>
+      </div>
+    </div>
+                <div id="signup-modal" class="modal">
+                  <div class="modal-content">
+                    <div class="close">&times;</div>
+                  
+                    <from id="signup-form">
+                    <a type="submit" href="http://127.0.0.1:5501/rigelsoft/king/hello.html#">Log Out</a>
+                    
+                    </from> 
+                     </div>
+                    </div> 
+                    </from>
+                  
+              </div>
+              
+            </div>
+            <hr>
+            <div class="null">
+
+           <div class="liu">
+            <div class="today">
+            <div class="single">
+              <div>
+                <h4>online Attendance</h4>
+              </div>
+              <div>
+                <p>12 December 2022</p>
+              </div>
+
+            </div>
+            <div class="true">
+              <input type="text" type="Write notes for clock-in here..." placeholder="Write notes for clock-in here..." style="width: 18%;
+              border: none;outline: none;"/>
+              <div>
+                <!-- <p>Write notes for clock-in here...</p> -->
+              </div>
+              <div class="true1">
+                <h1>00:00:00</h1>
+                <a href="#">Clock-in(09.00.21AM)</a>
+              </div>
+              
+
+            </div>
+          <div class="hp">
+            <i class="uil uil-stopwatch-slash"></i>
+            <p>Tracked Time</p>
+          </div>
+          <div class="jo">
+            <div class="qa">
+               <h2>75h 30m</h2>
+            </div>
+            <div class="lcu">
+            <div class="aws">
+            <div>
+              <a>LatestWeek</a>
+            </div>
+            <div>
+              <p>Lastweek</p>
+            </div>
+           
+            </div>
+            <div class="view">
+              <a href="#">View detail Report</a>
+            </div>
+           
+          </div>
+          </div>
+          <div class="chartCard">
+            <div class="chartBox">
+              <canvas id="myCanvas"></canvas>
+            </div>
+          </div>
+        </div>
+        </div>
+  <div class="select">
+    <div class="swet">
+      <div class="boss1">
+        <div class="cl">
+        <div class="noti">
+          <h3 a herf="#">Time off</a></h3>
+          <a href="#">Request Time Off</a>
+        </div>
+        <div class="total">
+        <div class="ho">
+          <span i class="uil uil-plane-departure">VactionLeave</span></i>
+      <img src="image/ko.png">
+      <div class="upload">
+        <span>4days</span><a>Used</a>
+        <div>
+          <span>12days</span><a>Available</a>
+        </div>
+      </div>
+      </div>
+      <div class="ho">
+        <span i class="uil uil-confused">Sick Leave</span></i>
+      <img src="image/ko.png">
+      <div class="ho2">
+        <span>5days</span><a>Used</a>
+        <div>
+          <span>12days</span><a>Available</a>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div class="lm">
+        <li>Time off date</li>
+        <li>type time off</li>
+        <li>Status</li>
+        </div>
+        <div class="lm1">
+          <li>Dec06,2023-Dec07,2023</li>
+          <li>Vaction</li>
+          <li><a href="#"i class="uil uil-file-info-alt">In Review</span></i></li></a>
+         </div>
+         <hr>
+         <div class="lm2">
+          <li>Dec08,2023-Dec09,2023</li>
+          <li>Vaction</li>
+          <li><a href="#"i class="uil uil-file-info-alt">In Review</span></i></li></a>
+         </div>
+         <hr>
+         <div class="lm3">
+          <li>Dec10,2023-Dec11,2023</li>
+          <li> Vaction</li>
+          <li><a href="#"i class="uil uil-file-info-alt">In Review</span></i></li></a>
+         </div>
+         <hr>
+
+
+        </div>
+        </div>
+        </div>
+      
+      <div class="swet">
+      <div class="boss1">
+        <div class="c">
+<div class="tamil">
+ <a href="#">My Team Member</a>
+ <!-- <k>See all memeber</k> -->
+ <a href="#">See all memeber</a>
+</div>
+
+<div class="c1">
+  <div class="c2">
+    <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7912642/avatar-icon-md.png">
+    <div class="c3">
+      <p>Agossou Semilinko</p>
+      <a>Team Lead.Lead.Sr.Front-end Dev</a>
+    </div>
+    </div>
+    <div class="c4">
+      <a href="#">Present</a>
+    </div>
+</div>
+<hr>
+<div class="c1">
+  <div class="c2">
+    <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png">
+    <div class="c3">
+      <p>Prosper Sossou </p>
+      <a>Ass.Lead.Sr.Front-end Dev</a>
+    </div>
+    </div>
+    <div class="c4">
+      <a href="#">Present</a>
+    </div>
+</div>
+<hr>
+<div class="c1">
+  <div class="c2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoy14evimpQRK5-u3G2N76z2pyVisthKXoSCL4ThuDhxJcfMqWh3fyHTGRtaqJMeUgzg4&usqp=CAU">
+    <div class="c3">
+      <p>Melchior Houessou</p>
+      <a>Member.Lead.Sr.Front-end Dev</a>
+    </div>
+    </div>
+    <div class="c5">
+      <a href="#">SickLeave</a>
+    </div>
+</div>
+<hr>
+<div class="c1">
+  <div class="c2">
+    <img src="https://cdn.icon-icons.com/icons2/3708/PNG/512/man_person_people_avatar_icon_230017.png">
+    <div class="c3">
+      <p>Balnard Agbahounde</p>
+      <a>Member.Lead.Sr.Front-end Dev</a>
+    </div>
+    </div>
+    <div class="c4">
+      <a href="#">Present</a>
+    </div>
+</div>
+<hr>
+</div>
+      </div>
+      </div>
+    </div>
+    
+      
+          </div>
+          </div>
+</div>
+          
+          </div>
+          
+        </div>
+   
+    <!-- <hello></hello> -->
+   
+  </div>
+</div>
+</div>
+   
+        </div>
+        <script>
+      var a=document.getElementById("myModal")
+      var word = localStorage.setItem('username',user?.displayName);
+          function logout(){
+        
+          }
+          a.addEventListener('click',logout())
+          localStorage.clear()
+        </script>
+         <script>
+          
+          var word = localStorage.getItem('username');
+        
+        
+          var firstLetter = word.charAt(0);
+          document.getElementById("result").textContent = firstLetter;
+          </script>
+        <script>
+          var signupModal = document.getElementById("signup-modal");
+      var signupButton = document.getElementById("signup-button");
+      var closeBtn = document.getElementsByClassName("close")[0];
+      var signupForm = document.getElementById("signup-form");
+      
+      signupButton.addEventListener("click", function() {
+        signupModal.style.display = "block";
+      });
+    
+      
+      </script>
+     
+       
+        <script>
+          data = [
+            { invoice: "INV-03498312", Paiddate:"jan25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice jan-22.pdf"},
+            { invoice: "INV-03498313", Paiddate:"Feb25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Feb-22.pdf"},
+            { invoice: "INV-03498314", Paiddate:"Mar25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Mar-22.pdf"},
+            { invoice: "INV-03498315", Paiddate:"Apl25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Apl-22.pdf"},
+            { invoice: "INV-03498316", Paiddate:"May25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice May-22.pdf"},
+            { invoice: "INV-03498317", Paiddate:"jun25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Jun-22.pdf"},
+            { invoice: "INV-03498318", Paiddate:"jul25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Jul-22.pdf"},
+            { invoice: "INV-03498319", Paiddate:"Aug25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Aug-22.pdf"},
+            { invoice: "INV-03498320", Paiddate:"Sep25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Sep-22.pdf"},
+            { invoice: "INV-03498321", Paiddate:"Mar25,2023", TotalWorkingHoures:"128h 30m", invoiceamount:"$500.00",Status:"Paid",document:"Wade invoice Mar-22.pdf"},
+          ];
+          tableBody = document.querySelector("#myTable tbody");
+      
+          data.map(function (item) {
+            let newRow = `
+            <td style=";
+            text-align: center;border-bottom:1px solid gainsboro">${item?.invoice}</td>
+            <td style="text-align:center;border-bottom:1px solid gainsboro" >${item?.Paiddate}</td>
+            <td style="text-align:center;border-bottom:1px solid gainsboro">${item?.TotalWorkingHoures}</td>
+            <td style="text-align:center;border-bottom:1px solid gainsboro">${item?.invoiceamount}</td>
+            <td style="text-align:center;border-bottom:1px solid gainsboro">${item?.Status}</td>
+            <td style="text-align:center;border-bottom:1px solid gainsboro"><i class="uil uil-file-download"></i>${item?.document}<i href="#" i class="uil uil-ellipsis-v"style="margin-left: 10px;"></td>
+        `;
+            tableBody.innerHTML += newRow;
+          });
+        </script>
+        <script>
+          // setup
+          const data = {
+            labels: ["Dec6","Dec7", "Dec8", "Dec9", "Dec10", "Dec11", "Dec12"],
+            datasets: [
+              {
+                data: [1, 3, 1.5, 2, 1, 3, 2],
+                backgroundColor: [
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                 
+                 
+                ],
+                borderColor: [
+                "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                  "rgba(30,191,143)",
+                ],
+                borderWidth: 1,
+              },
+              {
+                data: [1, 2, 1, 1.1, 1, 2, 1],
+                backgroundColor: [
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                 
+                ],
+                borderColor: [
+                "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                  "rgba(233,237,240)",
+                ],
+                borderWidth: 1,
+              },
+            ],
+          };
+      
+         
+          const config = {
+            type: "bar",
+            data,
+            options: {
+              plugins: {
+                legend: {
+                  display: false,
+                },
+              },
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  ticks: {
+                    display: false,
+                  },
+                },
+              },
+            },
+          };
+          const myChart = new Chart(document.getElementById("myCanvas"), config);
+          const chartVersion = document.getElementById("chatrVersion");
+          chartVersion.innerText = Chart.version;
+        </script>
+  </body>
+  
+  
+  <script>
+  let slideIndex = [1, 1];
+  let slideId = ["mySlides1", "mySlides2"];
+  showSlides(1, 0);
+  showSlides(1, 1);
+  
+  function plusSlides(n, no) {
+    showSlides((slideIndex[no] += n), no);
+  }
+  
+  function showSlides(n, no) {
+    let i;
+    let x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) {
+      slideIndex[no] = 1;
+    }
+    if (n < 1) {
+      slideIndex[no] = x.length;
+    }
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex[no] - 1].style.display = "block";
+  }
+  </script>
+ 
+ 
+       <script>
+        // Get the modal element and the trigger button
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("openModal");
+    
+        // Get the close button element
+        var closeBtn = document.getElementsByClassName("close")[0];
+    
+        // Open the modal when the trigger button is clicked
+        btn.addEventListener("click", function () {
+          modal.style.display = "block";
+        });
+    
+        // Close the modal when the close button is clicked
+        closeBtn.addEventListener("click", function () {
+          modal.style.display = "none";
+        });
+    
+        // Close the modal when the user clicks outside of it
+        window.addEventListener("click", function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        });
+      </script>
+  
+</html>
