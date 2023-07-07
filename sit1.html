@@ -33,7 +33,7 @@
       <a href="#"><p class="lp">General</a></p>
       <div class="vc">
       <div>
-        <a href="PROJECT.html"span i class="uil uil-tachometer-fast"> Over view</i></a>
+        <a href="sit.html"span i class="uil uil-tachometer-fast"> Over view</i></a>
        
       </div>
       <div>
@@ -90,11 +90,12 @@
             <i class="fa-solid fa-grip"></i>
             <i class="uil uil-bell"></i>
             <div class="pb">
-              <p>b</p>
+                <p id="result"></p>
+              </div>
+          
+            <i class="fa-solid fa-angle-down"></i>
+              <div id="myModal" class="modal">
             </div>
-            <i class="fa-solid fa-angle-down">
-              
-            </i>
             
           </div>
         </div>
@@ -158,7 +159,7 @@
           <p>Total Page:3</p>
          </div>
          <div class="pn1">
-        <a href="sit.html">1</a>
+        <a href="PROJECT.html">1</a>
         <a href="sit1.html">2</a>
           <a>...</a>
           <a>3</a>
@@ -214,4 +215,21 @@
       tableBody.innerHTML += newRow;
     });
   </script>
+   <script>
+    var a=document.getElementById("myModal")
+    var word = localStorage.setItem('username',user?.displayName);
+        function logout(){
+      
+        }
+        a.addEventListener('click',logout())
+        localStorage.clear()
+      </script>
+       <script>
+        
+        var word = localStorage.getItem('username');
+      
+      
+        var firstLetter = word.charAt(0);
+        document.getElementById("result").textContent = firstLetter;
+        </script>
 </html>
